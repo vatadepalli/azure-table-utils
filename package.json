@@ -4,7 +4,8 @@
   "description": "A collection of functions for azure table storage to make your life easier.",
   "main": "dist/index.js",
   "scripts": {
-    "dev": "nodemon src/app.ts",
+    "deploy": "npm version patch && tsc && npm publish",
+    "dev": "nodemon src/dev.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
